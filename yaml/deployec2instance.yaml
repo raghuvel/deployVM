@@ -11,8 +11,6 @@ spec:
               - "sg-08416d631d1a6e907 - default"
               instanceType: "t2.micro"
               region: "us-east-1"
-        providerConfigRef:
-          name: crossplane-provider-config
         providerRef:
           name: crossplane-provider-config
   
