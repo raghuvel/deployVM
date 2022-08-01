@@ -1,0 +1,13 @@
+---
+apiVersion: "ec2.aws.crossplane.io/v1alpha1"
+kind: "Instance"
+metadata:
+    name: "sample-instance"
+spec:
+        forProvider:
+              subnetId: "subnet-0814938360f2fdf5b"
+              imageId: "ami-08d4ac5b634553e16"
+              securityGroupIds:
+              - "sg-08416d631d1a6e907 - default"
+              instanceType: "t2.micro"
+              region: "us-east-1"
